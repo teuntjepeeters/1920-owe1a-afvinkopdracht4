@@ -21,7 +21,7 @@ bestand = open ("enzymen.txt")
 
 # Aanwijzingen voor het schrijven van je programma
 # -------------------------------------------------------------
-# Het lezen van een regel kan met bestand.readline()
+# Het lezen van een regel kan met bestand.readline() bijvoorbeeld: regel = bestand.readline(). Print de regel en bekijk wat hieruit komt
 # Lees door totdat je een lege regel aantreft
 # Een regel bestaat uit twee stukken enzym en knipsequentie. Bijvoorbeeld: DdeI C^TGAG
 # Het opsplitsen van een regel in twee stukken op de spatie kan middels: enzym, seq = regel.split()
